@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import Dropdown from "./components/Dropdown";
+import Dropdown from "./Dropdown";
 function App() {
   const [options, setOptions] = useState(["Yes", "probably not"]);
   return (
